@@ -1,0 +1,11 @@
+{
+  //presets:set of plugins used to support particular language features
+  "presets": [
+    "latest",
+    "react" //Add support for JSX(add ability to compile JSX to pure js code)
+  ],
+  "plugins": [
+    "react-hot-loader/babel",
+    "transform-class-properties"
+  ]
+}
